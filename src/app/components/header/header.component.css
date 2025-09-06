@@ -1,0 +1,5 @@
+.active-link{
+    background: linear-gradient(rgba(11, 20, 40, 0.661),rgba(16, 46, 59, 0.711),rgba(7, 106, 148, 0.85));
+    color: white; 
+    transform: skew(-12deg);
+}
