@@ -1,0 +1,28 @@
+.circle{
+    animation: move 18s ease-in-out 0s infinite both alternate;
+}
+.c2{
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
+}
+.c3{
+    animation-direction: reverse;
+    animation-duration: 22s;
+}
+@keyframes move {
+    0%{
+        transform: translateX(150px);
+    }
+    25%{
+        transform: translateY(50px)rotateZ(60deg);
+    } 
+     50%{
+        transform: translateX(-100px) rotateZ(30deg);
+    } 
+     75%{
+        transform: translateY(-150px)rotateZ(60deg);
+    } 
+    100%{
+        transform: translateX(150px);
+    }
+}
