@@ -1,0 +1,84 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Technological Innovations at Nirma",
+      "description": "Exploring the latest technological advancements and research projects at Nirma University",
+      "image": "R2.jpg",
+      "date": "2025-09-01",
+      "author": "Dr. Smith"
+    },
+    {
+      "id": 2,
+      "title": "Campus Life Experience",
+      "description": "A day in the life of Nirma University students and their vibrant campus activities",
+      "image": "R.jpeg",
+      "date": "2025-09-02",
+      "author": "Jane Doe"
+    },
+    {
+      "id": 3,
+      "title": "Research Breakthroughs",
+      "description": "Recent research achievements and breakthroughs by Nirma faculty and students",
+      "image": "R2.jpg",
+      "date": "2025-09-03",
+      "author": "Prof. Johnson"
+    },
+    {
+      "id": 4,
+      "title": "Industry Collaborations",
+      "description": "New partnerships and collaborations with leading industry players",
+      "image": "R.jpeg",
+      "date": "2025-09-04",
+      "author": "Dr. Williams"
+    },
+    {
+      "id": 5,
+      "title": "Student Achievements",
+      "description": "Celebrating the achievements of our talented students in various fields",
+      "image": "R2.jpg",
+      "date": "2025-09-05",
+      "author": "Sarah Brown"
+    },
+    {
+      "id": 6,
+      "title": "Alumni Success Stories",
+      "description": "Inspiring stories of Nirma alumni making their mark in the world",
+      "image": "R.jpeg",
+      "date": "2025-09-06",
+      "author": "Mike Wilson"
+    },
+    {
+      "id": 7,
+      "title": "Campus Development",
+      "description": "Updates on new facilities and infrastructure developments at Nirma",
+      "image": "R2.jpg",
+      "date": "2025-09-07",
+      "author": "Robert Clark"
+    },
+    {
+      "id": 8,
+      "title": "Cultural Events",
+      "description": "Highlights from recent cultural events and festivals on campus",
+      "image": "R.jpeg",
+      "date": "2025-09-08",
+      "author": "Emily Chen"
+    },
+    {
+      "id": 9,
+      "title": "Sports Updates",
+      "description": "Latest sports achievements and events at Nirma University",
+      "image": "R2.jpg",
+      "date": "2025-09-09",
+      "author": "Tom Harris"
+    },
+    {
+      "id": 10,
+      "title": "Academic Excellence",
+      "description": "New academic programs and educational initiatives at Nirma",
+      "image": "R.jpeg",
+      "date": "2025-09-10",
+      "author": "Prof. Anderson"
+    }
+  ]
+}

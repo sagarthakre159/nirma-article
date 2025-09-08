@@ -1,4 +1,27 @@
-<p>blogs works!</p>
-<figure class="absolute top-0 left-0 -z-10 h-screen w-screen">
-  <img class="h-full w-full object-cover" src="nirma.jpeg">
-</figure>
+<section class="p-6" id="blogs">
+    <section class="grid gap-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-8">
+        <div *ngFor="let blog of displayedBlogs" class="w-full overflow-hidden bg-sky-900/40 relative min-h-[500px] rounded-4xl hover:-translate-y-2 hover:shadow-2xl ease-in-out duration-300">
+            <section class="absolute bg-sky-950 px-4 py-2 rounded-full text-sky-50 top-4 right-4">{{blog.date}}</section>
+            <figure class="h-56"><img [src]="blog.image" class="h-full w-full object-cover"></figure>
+            <section class="bg-sky-950 absolute bottom-0 h-[300px] flex flex-col justify-between rounded-4xl w-full p-4">
+                <section class="text-sky-50 flex flex-col justify-between py-3 px-1 h-[200px]">
+                    <h1 class="text-lg font-bold line-clamp-5 overflow-hidden">{{blog.title}}</h1>
+                    <p>Author: {{blog.author}}</p>
+                </section>
+                <section class="bg-sky-50/80 h-[60px] cursor-pointer rounded-full relative flex justify-between items-center px-1">
+                    <p class="mx-4 italic font-semibold text-sky-900">Read More</p>
+                    <span class="w-[72px] h-[52px] rounded-full flex justify-center items-center text-sky-50 text-2xl bg-sky-950">
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </span>
+                </section>
+            </section>
+        </div>
+    </section>
+    
+    <!-- Load More Button -->
+    <div *ngIf="hasMoreBlogs" class="flex justify-center mt-8">
+        <button (click)="loadMore()" class="bg-sky-950 text-sky-50 px-8 py-3 rounded-full hover:bg-sky-900 transition-colors duration-300">
+            Load More Blogs
+        </button>
+    </div>
+</section>
